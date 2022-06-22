@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Trybewarts</title>
+</head>
+
+<body class="column space-between">
+  <header class="header flex space-between items-center">
+    <img class="trybewarts-header-logo m-left" src="/images/trybewarts-header-logo.svg" alt="Logo Trybewarts">
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+    <form class="trybewarts-login flex m-right">
+      <input class="login-element input-field" type="email" name="email" id="email" placeholder="Email">
+      <input class="login-element input-field" type="password" name="password" id="password" placeholder="Senha">
+      <button class="login-element button" id="sign-in" type="submit">Entrar</button>
+    </form>
+  </header>
+
+  <main class="flex center m-left m-right">
+    <form class="column" id="evaluation-form" action="">
+      <h1 class="m-top m-bottom">Formulário de Avaliação</h1>
+      <div class="flex wrap space-between">
+        <input class="input-field half m-bottom" id="input-name" type="text" placeholder="Nome" minlength="4" required>
+        <input class="input-field half m-bottom" id="input-lastname" type="text" placeholder="Sobrenome" minlength="4"
+          required>
+        <input class="input-field half m-bottom" type="email" id="input-email" placeholder="Email" required>
+        <div class="flex half m-bottom">
+          <select class="grow" name="" id="house" required>
+            <option value="">--Por favor escolha uma casa--</option>
+            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+          </select>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row-to-column m-top">
+        <div class="column grow m-bottom">
+          <label class="m-bottom" id="label-family">Qual sua família?</label>
+          <label class="m-bottom" for="radio-frontend">
+            <input class="radios" type="radio" name="family" id="radio-frontend" value="Frontend" required>Família
+            Frontend
+          </label>
+          <label class="m-bottom" for="radio-backend">
+            <input class="radios" type="radio" name="family" id="radio-backend" value="Backend">Família Backend
+          </label>
+          <label for="radio-fullstack">
+            <input class="radios" type="radio" name="family" id="radio-fullstack" value="FullStack">Família FullStack
+          </label>
+        </div>
+
+        <div class="column">
+          <label class="m-bottom" id="label-content">
+            <p>Qual conteúdo você está com mais vontade de aprender?</p>
+          </label>
+          <div class="flex wrap">
+            <div class="basis-30 m-bottom">
+              <input class="subject" type="checkbox" value="HoFs" id="hofs">
+              <label for="hofs">Hofs</label>
+            </div>
+            <div class="basis-30 m-bottom">
+              <input class="subject" type="checkbox" value="Jest" id="jest">
+              <label for="jest">Jest</label>
+            </div>
+            <div class="basis-30 m-bottom">
+              <input class="subject" type="checkbox" value="Promises" id="promises">
+              <label for="promises">Promises</label>
+            </div>
+            <div class="basis-30 m-bottom">
+              <input class="subject" type="checkbox" value="React" id="react">
+              <label for="react">React</label>
+            </div>
+            <div class="basis-30 m-bottom">
+              <input class="subject" type="checkbox" value="SQL" id="sql">
+              <label for="sql">SQL</label>
+            </div>
+            <div class="basis-30 m-bottom">
+              <input class="subject" type="checkbox" value="Python" id="python">
+              <label for="python">Python</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row-to-column space-between m-top m-bottom">
+        <label class="m-right" id="label-rate">Como você avalia a Trybewarts?</label>
+        <div class="flex grow">
+          <label class="grow" for="rate-1">
+            <input class="radios-avaliation" type="radio" name="rate" value="1" id="rate-1" required> 1
+          </label>
+          <label class="grow" for="rate-2">
+            <input class="radios-avaliation" type="radio" name="rate" value="2" id="rate-2"> 2
+          </label>
+          <label class="grow" for="rate-3">
+            <input class="radios-avaliation" type="radio" name="rate" value="3" id="rate-3"> 3
+          </label>
+          <label class="grow" for="rate-4">
+            <input class="radios-avaliation" type="radio" name="rate" value="4" id="rate-4"> 4
+          </label>
+          <label class="grow" for="rate-5">
+            <input class="radios-avaliation" type="radio" name="rate" value="5" id="rate-5"> 5
+          </label>
+          <label class="grow" for="rate-6">
+            <input class="radios-avaliation" type="radio" name="rate" value="6" id="rate-6"> 6
+          </label>
+          <label class="grow" for="rate-7">
+            <input class="radios-avaliation" type="radio" name="rate" value="7" id="rate-7"> 7
+          </label>
+          <label class="grow" for="rate-8">
+            <input class="radios-avaliation" type="radio" name="rate" value="8" id="rate-8"> 8
+          </label>
+          <label class="grow" for="rate-9">
+            <input class="radios-avaliation" type="radio" name="rate" value="9" id="rate-9"> 9
+          </label>
+          <label class="grow" for="rate-10">
+            <input class="radios-avaliation" type="radio" name="rate" value="10" id="rate-10"> 10
+          </label>
+        </div>
+      </div>
+
+      <div class="pos-relative column m-bottom">
+        <label class="textarea" for="textarea">Deixe seu comentário:</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+        <span id="counter">500</span>
+      </div>
+
+      <label class="m-bottom" id="label-infos" for="agreement">
+        Você concorda com o uso das informações acima?
+        <input type="checkbox" name="" id="agreement">
+      </label>
+      <button class="button m-bottom" type="submit" id="submit-btn" disabled>Enviar</button>
+    </form>
+    <form class="column center" id="form-data" action=""></form>
+    <img class="self-center" id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logo Trybewarts">
+  </main>
+  <footer>Direitos reservados à Trybewarts©</footer>
+  <div id="m-login-backdrop">
+    <div id="m-login-container" class="column center">
+      <h1 id="m-login-h1" class="m-top m-bottom">Entre em Trybewarts</h1>
+      <input class="login-element input-field m-bottom" type="email" id="m-email" placeholder="Email">
+      <input class="login-element input-field m-bottom" type="password" id="m-password" placeholder="Senha">
+      <button class="login-element button" id="m-sign-in" type="button">Entrar</button>
+    </div>
+  </div>
+  <script src="/script.js"></script>
+
+</body>
+
+</html>
