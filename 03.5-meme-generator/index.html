@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Meme Generator</h1>
+    </header>
+    <div id="inputs-container" class="margin-y">
+      <div class="margin-y">
+        <label for="text-input">Texto </label>
+        <input type="text" id="text-input" maxlength="60">
+      </div>
+      <div>
+        <label for="meme-insert">Imagem </label>
+        <input type="file" accept="image/*" id="meme-insert">
+      </div>
+    </div>
+    <div id="meme-image-container">
+      <img src="imgs/meme1.png" alt="Imagem selecionada pelo usuário" id="meme-image">
+      <span id="meme-text"></span>
+    </div>
+    <h2>Estilos</h2>
+    <div class="flex-row wrap">
+      <button id="fire" class="button-margin">Fire</button>
+      <button id="water" class="button-margin">Water</button>
+      <button id="earth" class="button-margin">Earth</button>
+    </div>
+    <h2>Imagens</h2>
+    <div class="flex-row wrap">
+      <img src="imgs/meme1.png" alt="Template de meme 1" class="meme-template button-margin" id="meme-1">
+      <img src="imgs/meme2.png" alt="Template de meme 2" class="meme-template button-margin" id="meme-2">
+      <img src="imgs/meme3.png" alt="Template de meme 3" class="meme-template button-margin" id="meme-3">
+      <img src="imgs/meme4.png" alt="Template de meme 4" class="meme-template button-margin" id="meme-4">
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
