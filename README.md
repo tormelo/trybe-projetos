@@ -4,10 +4,21 @@ Os projetos originalmente foram entregues a partir de Pull Requests em repositó
 
 ## Destaques
 ### *[Trybewarts](https://tormelo.github.io/trybe-projetos/04-trybewarts/)*
+### *[To-do List](https://tormelo.github.io/trybe-projetos/03.2-todo-list/)*
 ### *[Pixel Art](https://tormelo.github.io/trybe-projetos/03.1-pixel-art/)*
-### *[Color Guess](https://tormelo.github.io/trybe-projetos/03.3-color-guess/)*
+
+<!-- <details>
+<summary><strong> Fundamentos do Desenvolvimento Web</strong></summary> -->
 
 ## Fundamentos do Desenvolvimento Web
-- Trybewarts: *[Site](https://tormelo.github.io/trybe-projetos/04-trybewarts/)* - *[Source Code](04-trybewarts/)*
+- Lessons Learned: *[Site](https://tormelo.github.io/trybe-projetos/01-lessons-learned/)* - *[Code](01-lessons-learned/)*
+- Playground Functions: *[Code](02-playground-functions/)*
+- Pixel Art: *[Site](https://tormelo.github.io/trybe-projetos/03.1-pixel-art/)* - *[Code](03.1-pixel-art/)*
+- To-do List: *[Site](https://tormelo.github.io/trybe-projetos/03.2-todo-list/)* - *[Code](03.2-todo-list/)*
+- Color Guess: *[Site](https://tormelo.github.io/trybe-projetos/03.3-color-guess/)* - *[Code](03.3-color-guess/)*
+- Mystery Letter: *[Site](https://tormelo.github.io/trybe-projetos/03.4-mystery-letter/)* - *[Code](03.4-mystery-letter/)*
+- Meme Generator: *[Site](https://tormelo.github.io/trybe-projetos/03.5-meme-generator/)* - *[Code](03.5-meme-generator/)*
+- Trybewarts: *[Site](https://tormelo.github.io/trybe-projetos/04-trybewarts/)* - *[Code](04-trybewarts/)*
+- JS Unit Tests: *[Code](05-js-unit-tests/)*
 
-<!-- (https://github.com/tormelo/trybe-projetos/tree/main/04-trybewarts) -->
+<!-- </details> -->
