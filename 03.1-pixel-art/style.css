@@ -1,0 +1,44 @@
+html {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.color , .pixel {
+  border: black solid 1px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.color {
+  transition: 100ms ease;
+  border-radius: 100%;
+}
+
+.color.selected {
+  border-radius: 0;
+}
+
+#pixel-board , #color-palette {
+  font-size: 0;
+}
+
+#pixel-board , #color-palette , #size {
+  margin: 1rem;
+}
+
+#size {
+  display: inline-block;
+}
+
+#board-size {
+  width: 50px;
+}
+
+#clear-board {
+  background-color: #db4b4b;
+  height: 2rem;
+  width: 3rem;
+  border-radius: 10px;
+}
