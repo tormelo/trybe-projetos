@@ -1,0 +1,72 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(rgb(60 , 155 , 36) , white);
+}
+
+#todo-container {
+  min-width: 480px;
+  max-width: 1000px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+#funcionamento {
+  font-style: italic;
+  font-weight: 100;
+}
+
+#texto-tarefa {
+  font-size: 1rem;
+}
+
+#lista-tarefas {
+  font-size: 1.5rem;
+}
+
+li {
+  user-select: none;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+button {
+  border: 0;
+  border-radius: 100px;
+  color: white;
+  font-weight: 900;
+  margin: 0.5rem 1rem 0 0;
+  padding: 10px 20px;
+}
+
+button:hover {
+  color: rgb(218 , 218 , 218);
+}
+
+button:active {
+  color: rgb(170 , 170 , 170);
+}
+
+#criar-tarefa , #remover-finalizados {
+  background-color: rgb(92 , 145 , 243);
+}
+
+#mover-cima , #mover-baixo {
+  background-color: rgb(243 , 167 , 26);
+}
+
+#remover-selecionado , #apaga-tudo {
+  background-color: rgb(145 , 20 , 20);
+}
+
+#salvar-tarefas {
+  background-color: rgb(72 , 189 , 43);
+}
