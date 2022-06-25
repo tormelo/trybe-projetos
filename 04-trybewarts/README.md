@@ -481,8 +481,6 @@ A barra deve possuir a classe <code>header</code>, ser um <code>flex container</
 * Ao clicar no botão de enviar, existe um texto no formato `Observações: -Observações-`;
 * Ao enviar as informações, o formulário deve ser substituído pelas informações da pessoa usuária.
 
-<img src="./formulario.gif">
-
 </details>
 
 # Requisito não avaliativo
