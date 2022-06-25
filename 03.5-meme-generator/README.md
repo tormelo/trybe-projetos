@@ -30,6 +30,7 @@ O projeto foi entregue originalmente no repositório privado da Trybe https://gi
   ```bash
   npm run cypress:open
   ```
+  
 </details>
 
 <details>
