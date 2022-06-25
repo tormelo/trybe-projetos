@@ -29,6 +29,7 @@ npm test
 npm run cypress:open
 ```
 </details>
+
 <details>
 <summary><strong> Requisitos </strong></summary><br>
 
