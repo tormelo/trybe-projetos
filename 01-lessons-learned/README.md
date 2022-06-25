@@ -31,6 +31,7 @@ O projeto foi entregue originalmente no repositório privado da Trybe https://gi
   ```bash
   npm run cypress:open
   ```
+
 </details>
 
 <details>
@@ -139,7 +140,7 @@ Teste a semântica da sua página está aprovada pelo site CodeSniffer
 
 - Seu site deve passar sem problemas na verificação de semântica do site CodeSniffer
 
-### BÔNUS
+# BÔNUS
 
 ### 12. Adicione uma tabela à página
 
@@ -174,4 +175,5 @@ Adicione ao elemento posicionado no lado esquerdo a classe "lado-esquerdo" e ao 
 - Utilizar a classe "lado-esquerdo"
 - Utilizar a classe "lado-direito"
 - Verificar se os elementos com as classes lado-direito e lado-esquerdo estão posicionados corretamente
+
 </details>

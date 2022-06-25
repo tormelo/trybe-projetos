@@ -2,11 +2,12 @@
 
 O objetivo do projeto foi desenvolver um site que gera cartas misteriosas a partir do input da pessoa usuária.
 
-O projeto foi entregue originalmente no repositório privado da Trybe https://github.com/tryber/sd-023-a-project-mistery-letter/ por meio da criação de uma branch pessoal e um Pull Request, onde seus requisitos foram avaliados automaticamente.
+O projeto foi entregue originalmente no repositório privado da Trybe https://github.com/tryber/sd-023-a-project-mistery-letter por meio da criação de uma branch pessoal e um Pull Request, onde seus requisitos foram avaliados automaticamente.
 
 <details>
   <summary><strong> Linter e Avaliador automático </strong></summary>
   <br>
+
   Primeiro instale as dependências do projeto com o comando:
 
   ```bash
@@ -29,13 +30,14 @@ O projeto foi entregue originalmente no repositório privado da Trybe https://gi
   ```bash
   npm run cypress:open
   ```
+
 </details>
 
 <details>
 <summary><strong> Requisitos </strong></summary>
 <br>
 
-# Requisitos Obrigatórios:
+# Requisitos Obrigatórios
 
 ## 1 - Deve haver um `input` com o id=\"carta-texto\" onde a pessoa usuária poderá digitar o conteúdo da carta
 
@@ -322,7 +324,7 @@ O projeto foi entregue originalmente no repositório privado da Trybe https://gi
 
 </details>
 
-# Requisitos Bônus:
+# Requisitos Bônus
 
 ## 17 - Com uma carta misteriosa gerada, adicione a possibilidade de alterar o estilo de uma palavra específica ao clicar nela
 
@@ -362,4 +364,5 @@ O projeto foi entregue originalmente no repositório privado da Trybe https://gi
 - Ao criar uma carta o elemento `p` com o `id="carta-contador"`  é atualizado com o número de palavras da carta (valor numérico).
 
 </details>
+
 </details>

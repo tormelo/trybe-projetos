@@ -288,4 +288,5 @@ O projeto foi entregue originalmente no repositório privado da Trybe https://gi
 - A cor preta ainda está presente e é a primeira na sua paleta de cores.
 
 </details>
+
 </details>

@@ -168,4 +168,5 @@ O projeto foi entregue originalmente no repositório privado da Trybe https://gi
   * As imagens prontas apresentam o comportamente esperado.
 
 </details>
+
 </details>

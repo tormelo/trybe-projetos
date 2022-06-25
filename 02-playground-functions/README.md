@@ -25,6 +25,7 @@ O projeto foi entregue originalmente no repositório privado da Trybe https://gi
   ```bash
   npm test
   ```
+
 </details>
 
 <details>
@@ -469,5 +470,7 @@ Implemente a função `hydrate` que recebe uma string e retorna a sugestão de q
 **O que será testado:**
   
 - Retorne a sugestão de quantos copos de água deve-se beber ao receber uma string.
+
 </details>
+
 </details>

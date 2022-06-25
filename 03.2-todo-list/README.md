@@ -2,36 +2,40 @@
 
 O objetivo do projeto foi desenvolver uma lista de tarefas usando `HTML`, `CSS` e `JavaScript` de acordo com os requisitos propostos.
 
-O projeto foi entregue originalmente no repositório privado da Trybe https://github.com/tryber/sd-023-a-project-todo-list/ por meio da criação de uma branch pessoal e um Pull Request, onde seus requisitos foram avaliados automaticamente.
+O projeto foi entregue originalmente no repositório privado da Trybe https://github.com/tryber/sd-023-a-project-todo-list por meio da criação de uma branch pessoal e um Pull Request, onde seus requisitos foram avaliados automaticamente.
 
 <details>
-<summary><strong> Linter e Avaliador automático </strong></summary><br>
-Primeiro instale as dependências do projeto com o comando:
+<summary><strong> Linter e Avaliador automático </strong></summary>
+<br>
 
-```bash
-npm install
-```
+  Primeiro instale as dependências do projeto com o comando:
 
-Para rodar o linter localmente no projeto, execute o comando abaixo:
+  ```bash
+  npm install
+  ```
 
-```bash
-npm run lint && npm run lint:styles
-```
+  Para rodar o linter localmente no projeto, execute o comando abaixo:
 
-Os requisitos do projeto podem ser testados automaticamente com os comandos abaixo:
+  ```bash
+  npm run lint && npm run lint:styles
+  ```
 
-```bash
-npm test
-```
-***ou***
+  Os requisitos do projeto podem ser testados automaticamente com os comandos abaixo:
 
-```bash
-npm run cypress:open
-```
+  ```bash
+  npm test
+  ```
+  ***ou***
+
+  ```bash
+  npm run cypress:open
+  ```
+
 </details>
 
 <details>
-  <summary><strong> Requisitos </strong></summary><br>
+<summary><strong> Requisitos </strong></summary>
+<br>
 
 # Requisitos Obrigatórios
 
@@ -215,5 +219,7 @@ O que significa mover um item de uma lista para cima ou para baixo no **_DOM_**?
 - Será verificada a presença de um elemento `button` com um id `remover-selecionado`;
 
 - Será verificado que, no clicar no botão, somente o elemento selecionado é removido.
+
 </details>
+
 </details>
