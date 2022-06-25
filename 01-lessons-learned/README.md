@@ -2,37 +2,42 @@
 
 O objetivo do projeto foi desenvolver uma página HTML estilizada com CSS seguindo os requisitos propostos.
 
-O projeto foi entregue originalmente no repositório privado da Trybe https://github.com/tryber/sd-023-a-project-lessons-learned/ por meio da criação de uma branch pessoal e um Pull Request, onde seus requisitos foram avaliados automaticamente.
+O projeto foi entregue originalmente no repositório privado da Trybe https://github.com/tryber/sd-023-a-project-lessons-learned por meio da criação de uma branch pessoal e um Pull Request, onde seus requisitos foram avaliados automaticamente.
 
 <details>
-<summary><strong> Linter e Avaliador automático </strong></summary><br>
-Primeiro instale as dependências do projeto com o comando:
+  <summary><strong> Linter e Avaliador automático </strong></summary>
+  <br>
 
-```bash
-npm install
-```
+  Primeiro instale as dependências do projeto com o comando:
 
-Para rodar o linter localmente no projeto, execute o comando abaixo:
+  ```bash
+  npm install
+  ```
 
-```bash
-npm run lint:styles
-```
+  Para rodar o linter localmente no projeto, execute o comando abaixo:
 
-Os requisitos do projeto podem ser testados automaticamente por meio do Jest com os comandos abaixo:
+  ```bash
+  npm run lint:styles
+  ```
 
-```bash
-npm test
-```
+  Os requisitos do projeto podem ser testados automaticamente por meio do Jest com os comandos abaixo:
 
-***ou***
+  ```bash
+  npm test
+  ```
 
-```bash
-npm run cypress:open
-```
+  ***ou***
+
+  ```bash
+  npm run cypress:open
+  ```
 </details>
 
 <details>
-<summary><strong> Requisitos </strong></summary><br>
+<summary><strong> Requisitos </strong></summary>
+<br>
+
+# Requisitos
 
 ### 1. Adicione uma cor de fundo específica para a página
 

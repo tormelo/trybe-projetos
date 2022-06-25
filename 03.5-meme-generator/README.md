@@ -5,7 +5,6 @@ O objetivo do projeto foi desenvolver uma aplicação usando HTML, CSS e JavaScr
 O projeto foi entregue originalmente no repositório privado da Trybe https://github.com/tryber/sd-023-a-project-meme-generator por meio da criação de uma branch pessoal e um Pull Request, onde seus requisitos foram avaliados automaticamente.
 
 <details>
-
   <summary><strong> Linter e Avaliador automático </strong></summary>
   <br>
 
@@ -31,7 +30,6 @@ O projeto foi entregue originalmente no repositório privado da Trybe https://gi
   ```bash
   npm run cypress:open
   ```
-
 </details>
 
 <details>

@@ -2,31 +2,34 @@
 
 O objetivo do projeto foi implementar diferentes tipos de funções de acordo com os requisitos.
 
-O projeto foi entregue originalmente no repositório privado da Trybe https://github.com/tryber/sd-023-a-project-playground-functions/ por meio da criação de uma branch pessoal e um Pull Request, onde seus requisitos foram avaliados automaticamente.
+O projeto foi entregue originalmente no repositório privado da Trybe https://github.com/tryber/sd-023-a-project-playground-functions por meio da criação de uma branch pessoal e um Pull Request, onde seus requisitos foram avaliados automaticamente.
 
 <details>
-<summary><strong> Linter e Avaliador automático </strong></summary><br>
-Primeiro instale as dependências do projeto com o comando:
+  <summary><strong> Linter e Avaliador automático </strong></summary>
+  <br>
 
-```bash
-npm install
-```
+  Primeiro instale as dependências do projeto com o comando:
 
-Para rodar o linter localmente no projeto, execute o comando abaixo:
+  ```bash
+  npm install
+  ```
 
-```bash
-npm run lint
-```
+  Para rodar o linter localmente no projeto, execute o comando abaixo:
 
-Os requisitos do projeto podem ser testados automaticamente com o comando abaixo:
+  ```bash
+  npm run lint
+  ```
 
-```bash
-npm test
-```
+  Os requisitos do projeto podem ser testados automaticamente com o comando abaixo:
+
+  ```bash
+  npm test
+  ```
 </details>
 
 <details>
-  <summary><strong> Requisitos </strong></summary><br />
+<summary><strong> Requisitos </strong></summary>
+<br>
 
 # Requisitos Obrigatórios
 
@@ -466,8 +469,5 @@ Implemente a função `hydrate` que recebe uma string e retorna a sugestão de q
 **O que será testado:**
   
 - Retorne a sugestão de quantos copos de água deve-se beber ao receber uma string.
-
-
 </details>
-
 </details>

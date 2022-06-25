@@ -2,36 +2,40 @@
 
 O objetivo do projeto foi desenvolver um jogo de adivinhação de cores utilizando HTML, CSS e JavaScript, de acordo com os requisitos propostos.
 
-O projeto foi entregue originalmente no repositório privado da Trybe https://github.com/tryber/sd-023-a-project-color-guess/ por meio da criação de uma branch pessoal e um Pull Request, onde seus requisitos foram avaliados automaticamente.
+O projeto foi entregue originalmente no repositório privado da Trybe https://github.com/tryber/sd-023-a-project-color-guess por meio da criação de uma branch pessoal e um Pull Request, onde seus requisitos foram avaliados automaticamente.
 
 <details>
-<summary><strong> Linter e Avaliador automático </strong></summary><br>
-Primeiro instale as dependências do projeto com o comando:
+  <summary><strong> Linter e Avaliador automático </strong></summary>
+  <br>
 
-```bash
-npm install
-```
+  Primeiro instale as dependências do projeto com o comando:
 
-Para rodar o linter localmente no projeto, execute o comando abaixo:
+  ```bash
+  npm install
+  ```
 
-```bash
-npm run lint && npm run lint:styles
-```
+  Para rodar o linter localmente no projeto, execute o comando abaixo:
 
-Os requisitos do projeto podem ser testados automaticamente com os comandos abaixo:
+  ```bash
+  npm run lint && npm run lint:styles
+  ```
 
-```bash
-npm test
-```
-***ou***
+  Os requisitos do projeto podem ser testados automaticamente com os comandos abaixo:
 
-```bash
-npm run cypress:open
-```
+  ```bash
+  npm test
+  ```
+  ***ou***
+
+  ```bash
+  npm run cypress:open
+  ```
+
 </details>
 
 <details>
-  <summary><strong> Requisitos </strong></summary><br>
+<summary><strong> Requisitos </strong></summary>
+<br>
 
 # Requisitos
 
@@ -115,7 +119,6 @@ npm run cypress:open
 
   - Ao clicar no botão, o elemento answer deve voltar ao estado inicial, exibindo o texto "Escolha uma cor".
 
-  
 </details>
 
 # Bônus
@@ -136,4 +139,5 @@ npm run cypress:open
 - Ao clicar no botão reiniciar, o placar NÃO deve ser redefinido.
 
 </details>
+
 </details>
