@@ -20,5 +20,6 @@ Os projetos originalmente foram entregues a partir de Pull Requests em repositó
 - Meme Generator: *[Site](https://tormelo.github.io/trybe-projetos/03.5-meme-generator/)* - *[Code](03.5-meme-generator/)*
 - Trybewarts: *[Site](https://tormelo.github.io/trybe-projetos/04-trybewarts/)* - *[Code](04-trybewarts/)*
 - JS Unit Tests: *[Code](05-js-unit-tests/)*
+- Zoo Functions: *[Code](06-zoo-functions/)*
 
 <!-- </details> -->
